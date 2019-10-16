@@ -12,7 +12,7 @@ saída encontrada é um número entre 0 e 9.
 
 ![perceptron](images/perceptron.png?raw=true)
 
-As matrizes w1 e w2 são os pesos pelos quais os neurônios são multiplicados para se descobrir os valores das próximas camadas. Os elementos dessas matrizes são constantemente alterados durante o treinamento afim de se obter melhores resultados.
+As matrizes w1 e w2 são os pesos pelos quais os neurônios são multiplicados para se descobrir os valores das próximas camadas. Os elementos dessas matrizes são constantemente alterados durante o treinamento a fim de se obter melhores resultados.
 
 Na determinação dos parâmetros do treinamento, foi utilizada uma faixa de valores conforme ilustrada abaixo:
 Na determinação do η (eta), foram testados valores entre 0.1 e 0.9 através de um laço de repetição no programa e o valor que retornou menor porcentagem de erro médio foi η=0.5 como pode ser conferido no gráfico a seguir:
