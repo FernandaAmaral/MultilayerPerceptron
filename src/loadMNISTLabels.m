@@ -1,15 +1,16 @@
-%%%%%%%%%%%%%%%%%%%%% Load MNIST Labels %%%%%%%%%%%%%%%%%%%%%
-% Autora: Fernanda Amaral Melo                              %
-% Contato: fernanda.amaral.melo@gmail.com                   %
-%                                                           %
-% Script usado para carregar a classifica??o das            %
-% imagens da base do MNIST                                  %
-% Par?metros:                                               %
-% - filename: Nome do arquivo a ser lido                    %
-% Sa?da:                                                    %
-% - images: Matriz contendo as classifica??es carregadas    %
-%           Dimens?es [N?mero de imagens]x1                 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Load MNIST Labels %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                            %
+% Autora: Fernanda Amaral Melo                                               %
+% Contato: fernanda.amaral.melo@gmail.com                                    %
+%                                                                            %
+% Script usado para carregar a classificacao das imagens da base do MNIST    %                                                   %
+% Parametros:                                                                %
+% - filename: Nome do arquivo a ser lido                                     %
+% Saida:                                                                     %
+% - images: Matriz contendo as classifica??es carregadas                     %
+%           Dimensoes [Numero de imagens]x1                                  %
+%                                                                            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function labels = loadMNISTLabels(filename)
 %loadMNISTLabels returns a [number of MNIST images]x1 matrix containing

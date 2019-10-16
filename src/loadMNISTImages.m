@@ -1,18 +1,18 @@
-%%%%%%%%%%%%%%%%%%%%% Load MNIST Images %%%%%%%%%%%%%%%%%%%%%
-% Autora: Fernanda Amaral Melo                              %
-% Contato: fernanda.amaral.melo@gmail.com                   %
-%                                                           %
-% Script usado para carregar as imagens da base do MNIST    %
-% Par?metros:                                               %
-% - filename: Nome do arquivo a ser lido                    %
-% Sa?da:                                                    %
-% - images: Matriz contendo as imagens carregadas           %
-%           Dimens?es 28x28x[N?mero de imagens]             %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Load MNIST Images %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                              %
+% Autora: Fernanda Amaral Melo                                                 %
+% Contato: fernanda.amaral.melo@gmail.com                                      %
+%                                                                              %
+% Script usado para carregar as imagens da base do MNIST                       %
+% Parametros:                                                                  %
+% - filename: Nome do arquivo a ser lido                                       %
+% Saida:                                                                       %
+% - images: Matriz contendo as imagens carregadas                              %
+%           Dimensoes 28x28x[Numero de imagens]                                %
+%                                                                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function images = loadMNISTImages(filename)
-%loadMNISTImages returns a 28x28x[number of MNIST images] matrix containing
-%the raw MNIST images
 
 fp = fopen(filename, 'rb');
 assert(fp ~= -1, ['Could not open ', filename, '']);

@@ -1,14 +1,17 @@
-%%%%%%%%%%%%%%%%%%% Multilayer Perceptron %%%%%%%%%%%%%%%%%%%
-% Autora: Fernanda Amaral Melo                              %
-% Contato: fernanda.amaral.melo@gmail.com                   %
-%                                                           %
-% Script usado para treinar a rede neural                   %
-% Par?metros:                                               %
-% - labels, images: Training dataset                        %
-% Sa?da:                                                    %
-% - w1, w2: Matrizes correspondentes ao peso dos neur?nios  %
-% - sset: Erro quadr?tico m?dio                             %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Multilayer Perceptron %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                                %
+%                                                                                %
+% Autora: Fernanda Amaral Melo                                                   %
+% Contato: fernanda.amaral.melo@gmail.com                                        %
+%                                                                                %
+% Script usado para treinar a rede neural                                        %
+% Parametros:                                                                    %
+% - labels, images: Training dataset                                             %
+% Saada:                                                                         %
+% - w1, w2: Matrizes correspondentes ao peso dos neuronios                       %
+% - sset: Erro quadratico medio                                                  %
+%                                                                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [w1,w2,sset] = MultilayerPerceptron (labels,images) 
  

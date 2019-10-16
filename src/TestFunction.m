@@ -1,16 +1,17 @@
-%%%%%%%%%%%%%%%%%%%%% Test Function %%%%%%%%%%%%%%%%%%%%%%%%%
-% Autora: Fernanda Amaral Melo                              %
-% Contato: fernanda.amaral.melo@gmail.com                   %
-%                                                           %
-% Script usado para testar a rede neural                    %
-% Par?metros:                                               %
-% - w1, w2: Matrizes da rede treinada                       %
-% - imagestest, labelstest: Conjunto de imagens e labels    %
-%                           de teste                        %
-% Sa?da:                                                    %
-% - sse: Erro quadr?tico                                    %
-% - sser: Erro quadr?tico m?dio                             %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Test Function %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                        %
+% Autora: Fernanda Amaral Melo                                           %
+% Contato: fernanda.amaral.melo@gmail.com                                %
+%                                                                        %
+% Script usado para testar a rede neural                                 %
+% Parametros:                                                            %
+% - w1, w2: Matrizes da rede treinada                                    %
+% - imagestest, labelstest: Conjunto de imagens e labels de teste        %
+% Saida:                                                                 %
+% - sse: Erro quadratico                                                 %
+% - sser: Erro quadratico medio                                          %
+%                                                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [sse,sset] = TestFunction(w1,w2,imagestest,labelstest)
 
