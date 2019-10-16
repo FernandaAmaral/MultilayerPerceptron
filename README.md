@@ -31,5 +31,8 @@ O gráfico abaixo ilustra a taxa de erro médio quadrático de cada exemplo do a
 
 ![error_test](images/error_test.png?raw=true)
 
+A pasta com os dados está disponível para download no link
+https://drive.google.com/open?id=1IcYFXTjFgJ_OryVDgqjPWN20WcjweZDm
+
 
     
