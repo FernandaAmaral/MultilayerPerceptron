@@ -1,5 +1,6 @@
 # MultilayerPerceptron
 Rede "Backpropagation" em reconhecimento de padrões
+
 [Este projeto foi desenvolvido em outra plataforma de controle de versionamento e exportada para o GitHub após o término da disciplina Sistemas Inteligentes - UnB]
 
 Criação e treinamento de uma rede neural artificial “Perceptron Multicamada” para reconhecimento de um conjunto de imagens manuscritas da base de dados MNIST.
